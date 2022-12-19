@@ -1,0 +1,431 @@
+img{
+    display: block;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    width: 380px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 100%;
+}
+
+.container > div {
+    margin: 10px 10px;
+}
+
+.sec2-t .i2 {
+    width: 100%;
+}
+
+.sec2-t {
+    grid-column: 1/2;
+    display: grid;
+    z-index: -1;
+    grid-template-columns: 100%;
+    background-image: url('bg-curve-desktop.svg');
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    align-self: center;
+}
+
+.ah {
+    justify-self: flex-start;
+    width: 30px;
+    height: 30px;
+    transform: translatex(-40px);
+}
+
+.ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.ahh2 p {
+    font-size: 15px;
+}
+
+#yooo {
+    display: block;
+    justify-self: center;
+    transform: translatex(25%);
+    width: 70% !important;
+}
+
+.ahh p {
+    display: inline-block;
+}
+
+.ahh span {
+    display: inline-block;
+    width: 50px;
+    padding: -10px;
+    font-size: 25px;
+    height: 30px;
+}
+
+.ahh2 span,
+.ahh2,h3 {
+    display: inline-block;
+    width: fit-content;
+    font-size: 10px;
+    margin: 2px;
+    height: 20px;
+}
+
+.ahh2 span {
+    transform: translate(-60px, 20px);
+}
+
+.ahh2 {
+    padding: 30px;
+    position: relative;
+    transform:;
+    background-color: white;
+    z-index: 3;
+    display: flex;
+    font-size: 15px;
+    margin: 10px;
+    margin-bottom: 190px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+
+.i2 {
+    align-self: flex-start;
+}
+
+button {
+    width: 90%;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    height: 50px;
+}
+
+.b {
+    margin-top: 130px;
+}
+
+.sec1-t > img {
+    display: block;
+    width: 380px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 8px 5px;
+}
+
+.header ul {
+    display: inline-block !important;
+    transform: translate(-450px, -40px);
+    margin-left: 0px;
+}
+
+.header {
+    grid-column: span 2;
+    width: 1400px;
+    justify-self: flex-start;
+
+}
+
+.header img {
+    justify-items: flex-start;
+    width: 150px;
+    height: 50px;
+}
+
+.footer1 {
+    display: grid;
+    color: white;
+    justify-content: center;
+    background-color: hsl(238, 22%, 44%);
+    align-items: center;
+    height: 300px;
+    width: 380px;
+    margin: 130px 0px 0px 0px!important;
+    grid-template-columns: 100;
+    grid-column: 1/3;
+}
+
+.woho button {
+    width: 70% !important;
+    transform: translate(8px, 8px);
+    justify-self: center;
+    background-color: hsl(224, 93%, 58%);
+}
+
+.footer2 {
+    grid-column: 1/3;
+    margin: 0px !important;
+    background-color: black;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: white;
+    width: 380px;
+}
+
+.footer2 *{
+    margin-left: 10px;
+}
+
+.footer2 img{
+    display: inline-block !important;
+}
+
+.footer2 div {
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    width: 300px;
+    justify-self: flex-start;
+}
+
+.footer2 li {
+    margin: 5px;
+}
+
+.o img {
+    margin-top: 30px;
+}
+
+.footer2 > img {
+    grid-column: 1/4;
+}
+
+
+
+@media (min-width:600px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    body {
+        width: 1440px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .container {
+        display: grid;
+        align-items: center;
+        width: 1440px;
+        grid-template-columns: 49% 49%;
+    }
+
+    .container > div {
+        margin: 50px 20px;
+    }
+
+    .sec2-t .i2 {
+        width: 100%;
+    }
+
+    .sec2-t {
+        grid-column: 1/3;
+        display: grid;
+        z-index: -1;
+        grid-template-columns: 50% 50%;
+        background-image: url('bg-curve-desktop.svg');
+    }
+
+    input {
+        width: 50%;
+        height: 50px;
+        align-self: center;
+    }
+
+    .ah {
+        justify-self: flex-start;
+        width: 30px;
+        height: 30px;
+        transform: translatex(-140px);
+    }
+
+    .ava {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .ahh2 p {
+        font-size: 15px;
+    }
+
+    #yooo {
+        display: block;
+        justify-self: center;
+        transform: translatex(25%);
+        width: 70% !important;
+    }
+
+    .ahh p {
+        display: inline-block;
+    }
+
+    .ahh span {
+        display: inline-block;
+        width: 50px;
+        padding: -10px;
+        font-size: 25px;
+        height: 30px;
+    }
+
+    .ahh2 span,
+    .ahh2,h3 {
+        display: inline-block;
+        width: fit-content;
+        font-size: 6px;
+        margin: 2px;
+        height: 20px;
+    }
+
+    .ahh2 span {
+        transform: translate(-60px, 20px);
+    }
+
+    .ahh2 {
+        padding: 30px;
+        position: relative;
+        transform:;
+        background-color: white;
+        z-index: 3;
+        display: flex;
+        font-size: 15px;
+        margin: 100px 10px 20000px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .i2 {
+        align-self: flex-start;
+    }
+
+    button {
+        width: 30% !important;
+        background-color: hsl(224, 93%, 58%);
+        border-radius: 5px;
+        margin-top: 8px;
+        height: 50px;
+    }
+
+    .b {
+        margin-top: 130px;
+    }
+
+    .container > img {
+        width: 100%;
+    }
+
+    .header ul li {
+        display: inline-block;
+        margin: 8px 50px;
+    }
+
+    .header ul {
+        display: inline-block;
+        margin-left: 700px;
+    }
+
+    .header {
+        grid-column: span 2;
+        width: 1400px;
+        justify-self: flex-start;
+
+    }
+
+    .header img {
+        justify-items: flex-start;
+        width: 150px;
+        height: 50px;
+    }
+
+    .footer1 {
+        display: grid;
+        color: white;
+        justify-content: center;
+        column-gap: 2%;
+        background-color: hsl(238, 22%, 44%);
+        justify-content: center;
+        height: 300px;
+        width: 1450px;
+        margin: 130px 0px 0px 0px!important;
+        grid-template-columns: 49% 49%;
+        grid-column: 1/3;
+    }
+
+    .woho button {
+        width: 30% !important;
+        transform: translate(-55%, 8px);
+        justify-self: flex-start;
+        background-color: hsl(224, 93%, 58%);
+    }
+
+    .footer2 {
+        grid-column: 1/3;
+        margin: 0px !important;
+        background-color: black;
+        color: white;
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .footer2 div {
+        font-size: 20px;
+        justify-self: flex-start;
+        margin: 10px;
+    }
+
+    .footer2 li {
+        margin: 10px;
+    }
+
+    .o img {
+        margin-top: 30px;
+    }
+
+    .footer2 > img {
+        grid-column: 1/4;
+    }
+    
+    .sec1-t img{
+        width: 100%;
+    }
+    
+    .sec1-t{
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
